@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* 
+Criado por Francisco Matelli | F5 Sites | www.f5sites.com
+
+Css INDEX:
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer *
+Float, height, width, padding, margin
+
+/* 2 - Structure and Design of isolated html itens *
+Widgets, Font-Face
+
+/* 3 - Pre-defined clases *
+h1, h2, h3, h4, h5, h6, p, a, a:hover, .centralized,
+
+/* 4 - General Class *
+used a lot of times
+
+*/
+
+*{text-decoration:none; margin:0; padding:0; border:0; list-style:none; font-family:Arial, Helvetica, sans-serif;}
+
+/* 1 - Structure of Header, Menu, Content, Sidebars and Footer */
+#header-logo {margin:20px 0 10px 10px;}
+#header-menu {height:30px;line-height:20px; background:#c50c0c;border-top:#232389 2px solid;border-bottom:#FFF 3px solid;} #header-menu a {color:#FFF;}
+.content {background:#232389 url("images/degrade.png") repeat-x bottom; display:table; padding:20px 20px 20px 20px; margin-bottom:-10px;}
+.content div {display:table-cell; padding:10px;}
+#footer {background:#0b0b2d;} #footer p {color:#FFF; text-align:center; font-size:16px; font-family:Arial, Helvetica, sans-serif;}
+
+/* 2 - Structure and Design of isolated html itens */
+/*#ul-header-menu li {float:left; padding:10px 0 0 0; width:120px; text-align:center; font-weight:bold; font-size:16px; }*/
+#content-servicos li {float:left; margin:0 10px 0 10px;}
+
+/* 3 - Pre-defined clases */
+a  {color:#9F1B1B}
+a:hover  {color:#E65551;}
+h1 {font-size:16px; margin-bottom:20px; font-weight:bold; color:#FFF;}
+p {font-size:13px; color:#FFF; margin:10px 0;}
+table td {vertical-align:top;}
+
+/* 4 - General Class */
+.centralized {width:960px; margin:0 auto;}
+.padding10 {padding:10px 10px 10px 10px;}
+.float_r {float:right} .float_l {float:left}
+.clearboth {clear:both}
+.minheight800 {min-height:800px;}
+
+/* 5 - jQuery Menu Exclusive Style */
+#jsddm {width:960px;/*margin: 0;padding: 0*/}
+#jsddm li {float:left;width:240px; text-align:center;}
+#jsddm li a {display: block; padding: 5px 12px; border-right: 1px solid white; color: #EAFFED; white-space: nowrap}
+#jsddm li a:hover {background: #1A4473}
+/*sub-menu*/
+#jsddm li ul {/*margin: 0;padding: 0;*/position: absolute; *margin-left:-120px; visibility: hidden;}
+#jsddm li ul li {float: none; display: inline;}
+#jsddm li ul li a {width:215px; background: #9F1B1B;border-top: 3px solid white;}
+#jsddm li ul li a:hover	{background: #7F1616}
